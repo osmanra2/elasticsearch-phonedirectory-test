@@ -72,4 +72,5 @@ https://www.elastic.co/guide/en/elasticsearch/client/php-api/2.0/index.html<br /
 Video Tutorial here and Credit to Elastic Youtube Channel and Codecouse:<br /><br />
 https://www.youtube.com/watch?v=XCHYo0CsZrk --- Elastic Channel<br /><br />
 https://www.youtube.com/watch?v=3xb1dHLg-Lk --- Codecourse Channel<br /><br />
+http://mnylen.tumblr.com/post/22963609412/elasticsearch-and-a-simple-contains-search<br /><br />
 </p>
