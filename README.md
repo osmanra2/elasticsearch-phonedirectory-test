@@ -1,20 +1,21 @@
 # elasticsearch-phonedirectory-test
 just testing elasticsearch with a simple phone directory
 
-This is a test using elasticsearch and showing it is real-time indexing strength
+<p>This is a test using elasticsearch and showing it is real-time indexing strength</p>
 
-First install elasticsearch https://www.elastic.co/downloads/elasticsearch 
+<p>First install elasticsearch https://www.elastic.co/downloads/elasticsearch</p> 
 
-edit your elasticsearch.yml file and rename your cluster and node to something that is suitiable for you. ex:xxx-dev-cluster
+<p>edit your elasticsearch.yml file and rename your cluster and node to something that is suitiable for you. ex:xxx-dev-cluster</p>
 
-Get this PHP Client https://github.com/elastic/elasticsearch-php 
+<p>Get this PHP Client https://github.com/elastic/elasticsearch-php </p>
 
-navigate to localhost or 127.0.0.1:9200 and setup your index
+<p>navigate to localhost or 127.0.0.1:9200 and setup your index</p>
+<p>be sure to install marvel also, documentation is here : https://www.elastic.co/downloads/marvel</p>
 
-Below is the way I set mine up. 
+<p>Below is the way I set mine up. </p>
 
 PUT employee/
-{
+<pre>{
   "mappings" : {
     "user" : {
       "properties" : {
@@ -61,13 +62,14 @@ PUT employee/
     }
   }
 }
+</pre>
+<p>this allows you to search all fields. </p>
 
-this allows you to search all fields. 
+<p>Using the add.php file you can instantly add documents into the index. </p>
 
-Using the add.php file you can instantly add documents into the index. 
-
-Read more here:
-https://www.elastic.co/guide/en/elasticsearch/client/php-api/2.0/index.html
-Video Tutorial here and Credit to Elastic Youtube Channel and Codecouse:
-https://www.youtube.com/watch?v=XCHYo0CsZrk --- Elastic Channel
-https://www.youtube.com/watch?v=3xb1dHLg-Lk --- Codecourse Channel
+<p>Read more here:<br /><br />
+https://www.elastic.co/guide/en/elasticsearch/client/php-api/2.0/index.html<br /><br />
+Video Tutorial here and Credit to Elastic Youtube Channel and Codecouse:<br /><br />
+https://www.youtube.com/watch?v=XCHYo0CsZrk --- Elastic Channel<br /><br />
+https://www.youtube.com/watch?v=3xb1dHLg-Lk --- Codecourse Channel<br /><br />
+</p>
