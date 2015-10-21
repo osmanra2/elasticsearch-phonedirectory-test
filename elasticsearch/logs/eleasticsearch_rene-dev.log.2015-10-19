@@ -1,0 +1,2248 @@
+[2015-10-19 08:42:48,883][INFO ][cluster.metadata         ] [rene_01_dev] [employee] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [user]
+[2015-10-19 08:42:49,443][INFO ][cluster.metadata         ] [rene_01_dev] [employee] update_mapping [user] (dynamic)
+[2015-10-19 08:42:50,642][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.19] update_mapping [index_event] (dynamic)
+[2015-10-19 11:46:41,035][INFO ][node                     ] [rene_01_dev] stopping ...
+[2015-10-19 11:46:44,358][INFO ][node                     ] [rene_01_dev] stopped
+[2015-10-19 11:46:44,358][INFO ][node                     ] [rene_01_dev] closing ...
+[2015-10-19 11:46:44,832][INFO ][node                     ] [rene_01_dev] closed
+[2015-10-19 12:10:26,684][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[4124], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-19 12:10:26,775][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-19 12:10:28,761][INFO ][plugins                  ] [rene_01_dev] loaded [marvel], sites [marvel]
+[2015-10-19 12:10:29,875][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [227.8gb], net total_space [297.9gb], types [NTFS]
+[2015-10-19 12:10:36,802][INFO ][node                     ] [rene_01_dev] initialized
+[2015-10-19 12:10:36,803][INFO ][node                     ] [rene_01_dev] starting ...
+[2015-10-19 12:10:37,354][INFO ][transport                ] [rene_01_dev] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2015-10-19 12:10:37,620][INFO ][discovery                ] [rene_01_dev] eleasticsearch_rene-dev/eWMS5IKIRgirtTpetzcEqg
+[2015-10-19 12:10:41,467][INFO ][cluster.service          ] [rene_01_dev] new_master [rene_01_dev][eWMS5IKIRgirtTpetzcEqg][HMOSMANRA2W7E][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-19 12:10:41,639][INFO ][http                     ] [rene_01_dev] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2015-10-19 12:10:41,640][INFO ][node                     ] [rene_01_dev] started
+[2015-10-19 12:10:41,753][INFO ][gateway                  ] [rene_01_dev] recovered [7] indices into cluster_state
+[2015-10-19 12:10:49,590][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.19] update_mapping [node_event] (dynamic)
+[2015-10-19 12:10:49,691][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.19] update_mapping [cluster_event] (dynamic)
+[2015-10-19 13:44:49,148][INFO ][node                     ] [rene_01_dev] stopping ...
+[2015-10-19 13:44:49,700][INFO ][node                     ] [rene_01_dev] stopped
+[2015-10-19 13:44:49,701][INFO ][node                     ] [rene_01_dev] closing ...
+[2015-10-19 13:44:49,841][INFO ][node                     ] [rene_01_dev] closed
+[2015-10-19 13:53:28,282][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[4252], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-19 13:53:28,282][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-19 13:53:28,553][INFO ][plugins                  ] [rene_01_dev] loaded [marvel], sites [marvel]
+[2015-10-19 13:53:28,864][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [227.8gb], net total_space [297.9gb], types [NTFS]
+[2015-10-19 13:53:36,451][INFO ][node                     ] [rene_01_dev] initialized
+[2015-10-19 13:53:36,451][INFO ][node                     ] [rene_01_dev] starting ...
+[2015-10-19 13:53:37,597][INFO ][transport                ] [rene_01_dev] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2015-10-19 13:53:38,130][INFO ][discovery                ] [rene_01_dev] eleasticsearch_rene-dev/VrRHELx3QqGRLgHPUF3RyA
+[2015-10-19 13:53:42,020][INFO ][cluster.service          ] [rene_01_dev] new_master [rene_01_dev][VrRHELx3QqGRLgHPUF3RyA][HMOSMANRA2W7E][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-19 13:53:42,215][INFO ][http                     ] [rene_01_dev] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2015-10-19 13:53:42,216][INFO ][node                     ] [rene_01_dev] started
+[2015-10-19 13:53:42,351][INFO ][gateway                  ] [rene_01_dev] recovered [7] indices into cluster_state
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [.marvel-2015.10.16][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.10.16][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [.marvel-2015.10.16] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [.marvel-2015.10.19][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.10.19][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [.marvel-2015.10.19] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,736][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,736][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [.marvel-2015.10.15][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.10.15][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [.marvel-2015.10.15] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [.marvel-kibana][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-kibana][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [.marvel-kibana] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [.marvel-2015.10.18][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.10.18][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [.marvel-2015.10.18] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,636][DEBUG][action.search.type       ] [rene_01_dev] [.marvel-2015.10.17][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [.marvel-2015.10.17][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [.marvel-2015.10.17] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,737][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,730][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@19b9f39e] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:46:29,741][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"query":{"match":{"name":"s","Employee Number":"s","Date of Hire":"s"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 14:57:50,070][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7529f8f7] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    },
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input within/between OBJECT entries
+ at [Source: [B@18e4ed1d; line: 5, column: 64]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS2(UTF8StreamJsonParser.java:2720)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS(UTF8StreamJsonParser.java:2690)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:689)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:57:50,070][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7529f8f7] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][2]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    },
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input within/between OBJECT entries
+ at [Source: [B@18e4ed1d; line: 5, column: 64]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS2(UTF8StreamJsonParser.java:2720)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS(UTF8StreamJsonParser.java:2690)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:689)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:57:50,083][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7529f8f7]
+org.elasticsearch.search.SearchParseException: [employee][1]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    },
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input within/between OBJECT entries
+ at [Source: [B@18e4ed1d; line: 5, column: 64]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS2(UTF8StreamJsonParser.java:2720)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS(UTF8StreamJsonParser.java:2690)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:689)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:57:50,083][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][1]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    },
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input within/between OBJECT entries
+ at [Source: [B@18e4ed1d; line: 5, column: 64]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS2(UTF8StreamJsonParser.java:2720)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS(UTF8StreamJsonParser.java:2690)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:689)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:57:50,070][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7529f8f7] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    },
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input within/between OBJECT entries
+ at [Source: [B@18e4ed1d; line: 5, column: 64]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS2(UTF8StreamJsonParser.java:2720)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS(UTF8StreamJsonParser.java:2690)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:689)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:57:50,070][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7529f8f7] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    },
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input within/between OBJECT entries
+ at [Source: [B@18e4ed1d; line: 5, column: 64]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS2(UTF8StreamJsonParser.java:2720)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWS(UTF8StreamJsonParser.java:2690)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:689)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:58:01,993][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@237176c6] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    }
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input: expected close marker for OBJECT (from [Source: [B@1335a5; line: 1, column: 0])
+ at [Source: [B@1335a5; line: 5, column: 63]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:455)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._handleEOF(ParserBase.java:502)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:510)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:2801)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:2771)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:652)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:58:01,994][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@237176c6]
+org.elasticsearch.search.SearchParseException: [employee][2]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    }
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input: expected close marker for OBJECT (from [Source: [B@1335a5; line: 1, column: 0])
+ at [Source: [B@1335a5; line: 5, column: 63]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:455)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._handleEOF(ParserBase.java:502)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:510)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:2801)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:2771)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:652)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:58:01,996][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][2]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    }
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input: expected close marker for OBJECT (from [Source: [B@1335a5; line: 1, column: 0])
+ at [Source: [B@1335a5; line: 5, column: 63]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:455)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._handleEOF(ParserBase.java:502)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:510)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:2801)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:2771)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:652)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:58:01,994][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@237176c6] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    }
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input: expected close marker for OBJECT (from [Source: [B@1335a5; line: 1, column: 0])
+ at [Source: [B@1335a5; line: 5, column: 63]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:455)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._handleEOF(ParserBase.java:502)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:510)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:2801)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:2771)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:652)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:58:01,994][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@237176c6] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    }
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input: expected close marker for OBJECT (from [Source: [B@1335a5; line: 1, column: 0])
+ at [Source: [B@1335a5; line: 5, column: 63]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:455)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._handleEOF(ParserBase.java:502)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:510)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:2801)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:2771)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:652)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 14:58:01,993][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@237176c6] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: query[name:rene],from[-1],size[-1]: Parse Failure [Failed to parse source [{
+    "query" : {
+        "match" : { "name" : "Rene" }
+    }
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected end-of-input: expected close marker for OBJECT (from [Source: [B@1335a5; line: 1, column: 0])
+ at [Source: [B@1335a5; line: 5, column: 63]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:455)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._handleEOF(ParserBase.java:502)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:510)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd2(UTF8StreamJsonParser.java:2801)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser._skipWSOrEnd(UTF8StreamJsonParser.java:2771)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:652)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:723)
+	... 9 more
+[2015-10-19 15:14:57,656][INFO ][cluster.metadata         ] [rene_01_dev] [employee] update_mapping [user] (dynamic)
+[2015-10-19 15:15:52,319][INFO ][cluster.metadata         ] [rene_01_dev] [[employee]] remove_mapping [[user]]
+[2015-10-19 15:18:06,617][INFO ][cluster.metadata         ] [rene_01_dev] [employee] update_mapping [user] (dynamic)
+[2015-10-19 15:35:38,631][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@29b7d7ef] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "match_all": {
+      "name":"Rene"
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match_all] query does not support [name]
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:62)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:35:38,631][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@29b7d7ef] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "match_all": {
+      "name":"Rene"
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match_all] query does not support [name]
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:62)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:35:38,631][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@29b7d7ef] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "match_all": {
+      "name":"Rene"
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match_all] query does not support [name]
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:62)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:35:38,631][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@29b7d7ef] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "match_all": {
+      "name":"Rene"
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match_all] query does not support [name]
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:62)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:35:38,631][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@29b7d7ef]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "match_all": {
+      "name":"Rene"
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match_all] query does not support [name]
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:62)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:35:38,636][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "match_all": {
+      "name":"Rene"
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match_all] query does not support [name]
+	at org.elasticsearch.index.query.MatchAllQueryParser.parse(MatchAllQueryParser.java:62)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:36:51,236][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@21988a43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+ at [Source: [B@59af1c5f; line: 8, column: 14]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:687)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:155)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:36:51,238][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@21988a43]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+ at [Source: [B@59af1c5f; line: 8, column: 14]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:687)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:155)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:36:51,238][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@21988a43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+ at [Source: [B@59af1c5f; line: 8, column: 14]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:687)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:155)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:36:51,237][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@21988a43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+ at [Source: [B@59af1c5f; line: 8, column: 14]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:687)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:155)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:36:51,239][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@21988a43] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+ at [Source: [B@59af1c5f; line: 8, column: 14]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:687)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:155)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:36:51,239][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+ at [Source: [B@59af1c5f; line: 8, column: 14]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:447)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:687)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:155)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:36:55,644][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@410ed805] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene",
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:36:55,644][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@410ed805] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene",
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:36:55,644][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@410ed805] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene",
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:36:55,644][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@410ed805] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene",
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:36:55,647][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@410ed805]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene",
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:36:55,648][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene",
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [match] query parsed in simplified form, with direct field name, but included more options than just the field name, possibly use its 'options' form, with 'query' element?
+	at org.elasticsearch.index.query.MatchQueryParser.parse(MatchQueryParser.java:157)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:24,322][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a877dc4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:24,322][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a877dc4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:24,322][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a877dc4]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:24,322][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a877dc4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:24,323][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a877dc4] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:24,323][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:48,094][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@b2fa421] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:48,097][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@b2fa421] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:48,098][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@b2fa421] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:48,102][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@b2fa421] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:48,103][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@b2fa421]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:37:48,104][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Rene"
+          },
+          "match": {
+            "employee_number":"1"
+          }
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:41:20,354][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@261ae66f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Joh"
+          },
+          "match": {
+            "employee_number": "1"
+          }
+          }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:41:20,355][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@261ae66f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Joh"
+          },
+          "match": {
+            "employee_number": "1"
+          }
+          }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:41:20,354][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@261ae66f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Joh"
+          },
+          "match": {
+            "employee_number": "1"
+          }
+          }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:41:20,354][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@261ae66f] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Joh"
+          },
+          "match": {
+            "employee_number": "1"
+          }
+          }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:41:20,356][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@261ae66f]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Joh"
+          },
+          "match": {
+            "employee_number": "1"
+          }
+          }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:41:20,356][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "name": "Joh"
+          },
+          "match": {
+            "employee_number": "1"
+          }
+          }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] [_na] query malformed, no field after start_object
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:300)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-10-19 15:48:00,071][INFO ][cluster.metadata         ] [rene_01_dev] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2015-10-19 15:48:00,370][INFO ][cluster.metadata         ] [rene_01_dev] [test] update_mapping [test] (dynamic)
+[2015-10-19 15:50:59,283][INFO ][cluster.metadata         ] [rene_01_dev] [employee] update_mapping [user] (dynamic)
+[2015-10-19 15:55:31,521][DEBUG][action.search.type       ] [rene_01_dev] [employee][0], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@50341b9a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {"match": {
+          "name": "Rene"
+        }},
+        {"match": {
+          "employee_number": "1"
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected close marker ']': expected '}' (for OBJECT starting at [Source: [B@293add1; line: 7, column: 10])
+ at [Source: [B@293add1; line: 11, column: 8]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._reportMismatchedEndMarker(ParserBase.java:522)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:671)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:310)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:55:31,522][DEBUG][action.search.type       ] [rene_01_dev] [employee][1], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@50341b9a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {"match": {
+          "name": "Rene"
+        }},
+        {"match": {
+          "employee_number": "1"
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected close marker ']': expected '}' (for OBJECT starting at [Source: [B@293add1; line: 7, column: 10])
+ at [Source: [B@293add1; line: 11, column: 8]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._reportMismatchedEndMarker(ParserBase.java:522)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:671)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:310)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:55:31,523][DEBUG][action.search.type       ] [rene_01_dev] [employee][2], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@50341b9a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {"match": {
+          "name": "Rene"
+        }},
+        {"match": {
+          "employee_number": "1"
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected close marker ']': expected '}' (for OBJECT starting at [Source: [B@293add1; line: 7, column: 10])
+ at [Source: [B@293add1; line: 11, column: 8]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._reportMismatchedEndMarker(ParserBase.java:522)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:671)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:310)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:55:31,523][DEBUG][action.search.type       ] [rene_01_dev] [employee][3], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@50341b9a] lastShard [true]
+org.elasticsearch.search.SearchParseException: [employee][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {"match": {
+          "name": "Rene"
+        }},
+        {"match": {
+          "employee_number": "1"
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected close marker ']': expected '}' (for OBJECT starting at [Source: [B@293add1; line: 7, column: 10])
+ at [Source: [B@293add1; line: 11, column: 8]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._reportMismatchedEndMarker(ParserBase.java:522)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:671)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:310)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:55:31,524][DEBUG][action.search.type       ] [rene_01_dev] [employee][4], node[VrRHELx3QqGRLgHPUF3RyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@50341b9a]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {"match": {
+          "name": "Rene"
+        }},
+        {"match": {
+          "employee_number": "1"
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected close marker ']': expected '}' (for OBJECT starting at [Source: [B@293add1; line: 7, column: 10])
+ at [Source: [B@293add1; line: 11, column: 8]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._reportMismatchedEndMarker(ParserBase.java:522)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:671)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:310)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 15:55:31,525][DEBUG][action.search.type       ] [rene_01_dev] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [employee][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+  "query": {
+    "bool": {
+      "should": [
+        {"match": {
+          "name": "Rene"
+        }},
+        {"match": {
+          "employee_number": "1"
+        }
+      ]
+    }
+  }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [employee] Failed to parse
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:283)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+Caused by: org.elasticsearch.common.jackson.core.JsonParseException: Unexpected close marker ']': expected '}' (for OBJECT starting at [Source: [B@293add1; line: 7, column: 10])
+ at [Source: [B@293add1; line: 11, column: 8]
+	at org.elasticsearch.common.jackson.core.JsonParser._constructError(JsonParser.java:1487)
+	at org.elasticsearch.common.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:518)
+	at org.elasticsearch.common.jackson.core.base.ParserBase._reportMismatchedEndMarker(ParserBase.java:522)
+	at org.elasticsearch.common.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:671)
+	at org.elasticsearch.common.xcontent.json.JsonXContentParser.nextToken(JsonXContentParser.java:51)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:310)
+	at org.elasticsearch.index.query.BoolQueryParser.parse(BoolQueryParser.java:107)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:307)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	... 12 more
+[2015-10-19 20:00:04,440][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [_default_, shard_event, index_event, index_stats, node_event, routing_event, cluster_event, cluster_state, cluster_stats, node_stats, indices_stats]
+[2015-10-19 20:00:05,235][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [node_stats] (dynamic)
+[2015-10-19 20:00:05,391][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [index_event] (dynamic)
+[2015-10-19 20:00:05,407][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [cluster_event] (dynamic)
+[2015-10-19 20:00:05,407][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [cluster_state] (dynamic)
+[2015-10-19 20:00:05,407][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [routing_event] (dynamic)
+[2015-10-19 20:00:05,438][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [indices_stats] (dynamic)
+[2015-10-19 20:00:05,454][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [index_stats] (dynamic)
+[2015-10-19 20:00:05,485][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.20] update_mapping [cluster_stats] (dynamic)

@@ -1,0 +1,9 @@
+[2015-10-16 20:00:03,696][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [_default_, shard_event, index_event, index_stats, node_event, routing_event, cluster_event, cluster_state, cluster_stats, node_stats, indices_stats]
+[2015-10-16 20:00:04,338][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [node_stats] (dynamic)
+[2015-10-16 20:00:04,506][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [routing_event] (dynamic)
+[2015-10-16 20:00:04,525][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [cluster_state] (dynamic)
+[2015-10-16 20:00:04,527][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [cluster_event] (dynamic)
+[2015-10-16 20:00:04,528][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [index_event] (dynamic)
+[2015-10-16 20:00:04,567][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [indices_stats] (dynamic)
+[2015-10-16 20:00:04,569][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [index_stats] (dynamic)
+[2015-10-16 20:00:04,637][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.17] update_mapping [cluster_stats] (dynamic)

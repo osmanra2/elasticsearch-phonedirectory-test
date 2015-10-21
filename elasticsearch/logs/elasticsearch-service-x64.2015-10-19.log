@@ -1,0 +1,35 @@
+[2015-10-19 11:46:40] [info]  [ 5124] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-19 11:46:40] [info]  [ 5124] Stopping service 'elasticsearch-service-x64' ...
+[2015-10-19 11:46:45] [info]  [ 5124] Service 'elasticsearch-service-x64' stopped
+[2015-10-19 11:46:45] [info]  [ 5124] Stop service finished.
+[2015-10-19 11:46:45] [info]  [ 5124] Commons Daemon procrun finished
+[2015-10-19 12:10:02] [info]  [ 7548] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-19 12:10:02] [info]  [ 7548] Starting service 'elasticsearch-service-x64' ...
+[2015-10-19 12:10:02] [info]  [ 4456] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-19 12:10:02] [info]  [ 4456] Running 'elasticsearch-service-x64' Service...
+[2015-10-19 12:10:02] [info]  [10188] Starting service...
+[2015-10-19 12:10:05] [info]  [10188] Service started in 2892 ms.
+[2015-10-19 12:10:06] [info]  [ 7548] Service 'elasticsearch-service-x64' started
+[2015-10-19 12:10:06] [info]  [ 7548] Start service finished.
+[2015-10-19 12:10:06] [info]  [ 7548] Commons Daemon procrun finished
+[2015-10-19 13:44:49] [info]  [ 6016] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-19 13:44:49] [info]  [ 6016] Stopping service 'elasticsearch-service-x64' ...
+[2015-10-19 13:44:49] [info]  [10100] Stopping service...
+[2015-10-19 13:44:50] [info]  [ 4456] Run service finished.
+[2015-10-19 13:44:50] [info]  [ 4456] Commons Daemon procrun finished
+[2015-10-19 13:44:51] [info]  [ 6016] Service 'elasticsearch-service-x64' stopped
+[2015-10-19 13:44:51] [info]  [ 6016] Stop service finished.
+[2015-10-19 13:44:51] [info]  [ 6016] Commons Daemon procrun finished
+[2015-10-19 13:53:22] [info]  [ 6868] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-19 13:53:22] [info]  [ 6868] Starting service 'elasticsearch-service-x64' ...
+[2015-10-19 13:53:22] [info]  [10496] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-19 13:53:22] [info]  [10496] Running 'elasticsearch-service-x64' Service...
+[2015-10-19 13:53:23] [info]  [ 8120] Starting service...
+[2015-10-19 13:53:25] [info]  [ 8120] Service started in 1483 ms.
+[2015-10-19 13:53:26] [info]  [ 6868] Service 'elasticsearch-service-x64' started
+[2015-10-19 13:53:26] [info]  [ 6868] Start service finished.
+[2015-10-19 13:53:26] [info]  [ 6868] Commons Daemon procrun finished
+[2015-10-21 13:13:13] [info]  [ 4256] Stopping service...
+[2015-10-21 13:13:28] [info]  [ 4256] Service stop thread completed.
+[2015-10-21 13:13:28] [info]  [10496] Run service finished.
+[2015-10-21 13:13:28] [info]  [10496] Commons Daemon procrun finished

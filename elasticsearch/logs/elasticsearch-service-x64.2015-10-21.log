@@ -1,0 +1,21 @@
+[2015-10-21 13:13:13] [info]  [12256] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-21 13:13:13] [info]  [12256] Stopping service 'elasticsearch-service-x64' ...
+[2015-10-21 13:13:18] [error] [12256] Failed to stop 'elasticsearch-service-x64' service
+[2015-10-21 13:13:18] [error] [12256] The data area passed to a system call is too small.
+[2015-10-21 13:13:18] [info]  [12256] Stop service finished.
+[2015-10-21 13:13:18] [error] [12256] Commons Daemon procrun failed with exit value: 6 (Failed to stop service)
+[2015-10-21 13:13:18] [error] [12256] The data area passed to a system call is too small.
+[2015-10-21 13:16:20] [info]  [13480] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-21 13:16:20] [info]  [13480] Stopping service 'elasticsearch-service-x64' ...
+[2015-10-21 13:16:21] [info]  [13480] Service 'elasticsearch-service-x64' stopped
+[2015-10-21 13:16:21] [info]  [13480] Stop service finished.
+[2015-10-21 13:16:21] [info]  [13480] Commons Daemon procrun finished
+[2015-10-21 14:19:58] [info]  [ 4340] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-21 14:19:58] [info]  [ 4340] Starting service 'elasticsearch-service-x64' ...
+[2015-10-21 14:19:58] [info]  [ 6656] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-21 14:19:58] [info]  [ 6656] Running 'elasticsearch-service-x64' Service...
+[2015-10-21 14:19:58] [info]  [ 7872] Starting service...
+[2015-10-21 14:19:59] [info]  [ 7872] Service started in 1264 ms.
+[2015-10-21 14:20:01] [info]  [ 4340] Service 'elasticsearch-service-x64' started
+[2015-10-21 14:20:02] [info]  [ 4340] Start service finished.
+[2015-10-21 14:20:02] [info]  [ 4340] Commons Daemon procrun finished

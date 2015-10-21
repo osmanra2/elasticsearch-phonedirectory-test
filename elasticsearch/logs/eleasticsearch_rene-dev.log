@@ -1,0 +1,469 @@
+[2015-10-21 10:19:11,684][WARN ][monitor.jvm              ] [rene_01_dev] [gc][young][159657][11997] duration [1s], collections [1]/[1.1s], total [1s]/[2.3m], memory [184.8mb]->[133.6mb]/[990.7mb], all_pools {[young] [55.3mb]->[1.1mb]/[266.2mb]}{[survivor] [6.7mb]->[8mb]/[33.2mb]}{[old] [122.8mb]->[124.3mb]/[691.2mb]}
+[2015-10-21 10:20:27,878][INFO ][monitor.jvm              ] [rene_01_dev] [gc][young][159722][12002] duration [706ms], collections [1]/[1s], total [706ms]/[2.3m], memory [198mb]->[140.5mb]/[990.7mb], all_pools {[young] [66.5mb]->[7mb]/[266.2mb]}{[survivor] [5.5mb]->[6.7mb]/[33.2mb]}{[old] [126mb]->[126.8mb]/[691.2mb]}
+[2015-10-21 10:20:34,362][INFO ][monitor.jvm              ] [rene_01_dev] [gc][young][159728][12003] duration [907ms], collections [1]/[1.2s], total [907ms]/[2.3m], memory [171.9mb]->[136.5mb]/[990.7mb], all_pools {[young] [38.3mb]->[25.1kb]/[266.2mb]}{[survivor] [6.7mb]->[8.4mb]/[33.2mb]}{[old] [126.8mb]->[128.1mb]/[691.2mb]}
+[2015-10-21 10:20:54,521][INFO ][monitor.jvm              ] [rene_01_dev] [gc][young][159748][12004] duration [738ms], collections [1]/[1.1s], total [738ms]/[2.3m], memory [187.4mb]->[140.6mb]/[990.7mb], all_pools {[young] [50.8mb]->[4.3mb]/[266.2mb]}{[survivor] [8.4mb]->[7mb]/[33.2mb]}{[old] [128.1mb]->[129.1mb]/[691.2mb]}
+[2015-10-21 10:20:57,069][WARN ][monitor.jvm              ] [rene_01_dev] [gc][young][159750][12005] duration [1.2s], collections [1]/[1.5s], total [1.2s]/[2.3m], memory [154mb]->[138.2mb]/[990.7mb], all_pools {[young] [17.8mb]->[639.2kb]/[266.2mb]}{[survivor] [7mb]->[6.8mb]/[33.2mb]}{[old] [129.1mb]->[130.7mb]/[691.2mb]}
+[2015-10-21 10:52:46,736][INFO ][cluster.metadata         ] [rene_01_dev] [test-webindex] creating index, cause [api], templates [], shards [10]/[0], mappings [my_web]
+[2015-10-21 10:52:55,044][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.21] update_mapping [index_event] (dynamic)
+[2015-10-21 10:53:56,993][INFO ][cluster.metadata         ] [rene_01_dev] [test-webindex] deleting index
+[2015-10-21 10:54:03,854][INFO ][cluster.metadata         ] [rene_01_dev] [test-webindex] creating index, cause [api], templates [], shards [10]/[0], mappings [nih-web]
+[2015-10-21 11:02:56,034][INFO ][cluster.metadata         ] [rene_01_dev] [.river_web] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [config]
+[2015-10-21 11:02:56,695][INFO ][cluster.metadata         ] [rene_01_dev] [.river_web] update_mapping [config] (dynamic)
+[2015-10-21 11:38:41,992][INFO ][cluster.metadata         ] [rene_01_dev] [webindex] creating index, cause [api], templates [], shards [10]/[0], mappings [my_web]
+[2015-10-21 11:39:43,321][INFO ][cluster.metadata         ] [rene_01_dev] [.river_web] update_mapping [config] (dynamic)
+[2015-10-21 13:13:14,007][INFO ][node                     ] [rene_01_dev] stopping ...
+[2015-10-21 13:13:26,554][INFO ][node                     ] [rene_01_dev] stopped
+[2015-10-21 13:13:26,554][INFO ][node                     ] [rene_01_dev] closing ...
+[2015-10-21 13:13:28,181][INFO ][node                     ] [rene_01_dev] closed
+[2015-10-21 13:30:54,865][WARN ][bootstrap                ] Unable to lock JVM memory. Failed to set working set size. Error code 1314
+[2015-10-21 13:30:55,096][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[14296], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 13:30:55,097][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 13:31:03,919][INFO ][plugins                  ] [rene_01_dev] loaded [river-google-drive, marvel], sites [marvel]
+[2015-10-21 13:31:04,217][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 13:31:09,552][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(DriveManageAction.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(DriveOAuthAction.java:54)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2015-10-21 13:37:48,383][WARN ][bootstrap                ] Unable to lock JVM memory. Failed to set working set size. Error code 1314
+[2015-10-21 13:37:48,469][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[17532], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 13:37:48,469][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 13:37:48,671][INFO ][plugins                  ] [rene_01_dev] loaded [river-google-drive, marvel], sites [marvel]
+[2015-10-21 13:37:48,768][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 13:37:52,485][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(DriveManageAction.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(DriveOAuthAction.java:54)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2015-10-21 14:18:09,905][WARN ][bootstrap                ] Unable to lock JVM memory. Failed to set working set size. Error code 1314
+[2015-10-21 14:18:10,377][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[8152], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 14:18:10,378][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 14:18:20,069][INFO ][plugins                  ] [rene_01_dev] loaded [river-google-drive, marvel], sites [marvel]
+[2015-10-21 14:18:20,710][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226.9gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 14:18:35,430][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(DriveManageAction.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(DriveOAuthAction.java:54)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2015-10-21 14:20:01,000][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[7472], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 14:20:01,000][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 14:20:01,135][INFO ][plugins                  ] [rene_01_dev] loaded [river-google-drive, marvel], sites [marvel]
+[2015-10-21 14:20:01,166][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226.9gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 14:20:05,263][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(DriveManageAction.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(DriveOAuthAction.java:54)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2015-10-21 14:21:19,187][WARN ][bootstrap                ] Unable to lock JVM memory. Failed to set working set size. Error code 1314
+[2015-10-21 14:21:19,259][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[7312], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 14:21:19,260][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 14:21:19,424][INFO ][plugins                  ] [rene_01_dev] loaded [river-google-drive, marvel], sites [marvel]
+[2015-10-21 14:21:19,508][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226.9gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 14:21:23,438][ERROR][bootstrap                ] Exception
+org.elasticsearch.common.inject.CreationException: Guice creation errors:
+
+1) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveManageAction.<init>(DriveManageAction.java:50)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2) Error injecting constructor, java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+  at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(Unknown Source)
+  while locating com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction
+Caused by: java.lang.NoSuchMethodError: org.elasticsearch.rest.BaseRestHandler.<init>(Lorg/elasticsearch/common/settings/Settings;Lorg/elasticsearch/client/Client;)V
+	at com.github.lbroudoux.elasticsearch.river.drive.rest.DriveOAuthAction.<init>(DriveOAuthAction.java:54)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+
+2 errors
+	at org.elasticsearch.common.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:344)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:178)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:210)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:77)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:245)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+[2015-10-21 14:21:49,375][WARN ][bootstrap                ] Unable to lock JVM memory. Failed to set working set size. Error code 1314
+[2015-10-21 14:21:49,446][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[2292], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 14:21:49,446][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 14:21:49,517][INFO ][plugins                  ] [rene_01_dev] loaded [marvel], sites [marvel]
+[2015-10-21 14:21:49,598][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226.9gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 14:21:53,150][INFO ][node                     ] [rene_01_dev] initialized
+[2015-10-21 14:21:53,151][INFO ][node                     ] [rene_01_dev] starting ...
+[2015-10-21 14:21:53,661][INFO ][transport                ] [rene_01_dev] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2015-10-21 14:21:53,919][INFO ][discovery                ] [rene_01_dev] eleasticsearch_rene-dev/dma20y2xQ6GC9rQNmIhrug
+[2015-10-21 14:21:57,858][INFO ][cluster.service          ] [rene_01_dev] new_master [rene_01_dev][dma20y2xQ6GC9rQNmIhrug][HMOSMANRA2W7E][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-21 14:21:58,047][INFO ][http                     ] [rene_01_dev] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2015-10-21 14:21:58,048][INFO ][node                     ] [rene_01_dev] started
+[2015-10-21 14:21:58,333][INFO ][gateway                  ] [rene_01_dev] recovered [14] indices into cluster_state
+[2015-10-21 14:22:08,664][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.21] update_mapping [node_event] (dynamic)
+[2015-10-21 14:22:08,669][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.21] update_mapping [cluster_event] (dynamic)
+[2015-10-21 14:22:48,368][INFO ][bootstrap                ] running graceful exit on windows
+[2015-10-21 14:22:48,371][INFO ][node                     ] [rene_01_dev] stopping ...
+[2015-10-21 14:22:48,672][INFO ][node                     ] [rene_01_dev] stopped
+[2015-10-21 14:22:48,673][INFO ][node                     ] [rene_01_dev] closing ...
+[2015-10-21 14:22:48,678][INFO ][node                     ] [rene_01_dev] closed
+[2015-10-21 14:23:55,770][WARN ][bootstrap                ] Unable to lock JVM memory. Failed to set working set size. Error code 1314
+[2015-10-21 14:23:55,846][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[3556], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-21 14:23:55,846][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-21 14:23:55,918][INFO ][plugins                  ] [rene_01_dev] loaded [marvel], sites [marvel]
+[2015-10-21 14:23:56,033][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [226.8gb], net total_space [297.9gb], types [NTFS]
+[2015-10-21 14:23:59,582][INFO ][node                     ] [rene_01_dev] initialized
+[2015-10-21 14:23:59,582][INFO ][node                     ] [rene_01_dev] starting ...
+[2015-10-21 14:23:59,815][INFO ][transport                ] [rene_01_dev] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2015-10-21 14:23:59,950][INFO ][discovery                ] [rene_01_dev] eleasticsearch_rene-dev/JuVA8IruTJq-S7ggR03PLw
+[2015-10-21 14:24:03,733][INFO ][cluster.service          ] [rene_01_dev] new_master [rene_01_dev][JuVA8IruTJq-S7ggR03PLw][HMOSMANRA2W7E][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-21 14:24:03,916][INFO ][http                     ] [rene_01_dev] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2015-10-21 14:24:03,917][INFO ][node                     ] [rene_01_dev] started
+[2015-10-21 14:24:03,985][INFO ][gateway                  ] [rene_01_dev] recovered [14] indices into cluster_state

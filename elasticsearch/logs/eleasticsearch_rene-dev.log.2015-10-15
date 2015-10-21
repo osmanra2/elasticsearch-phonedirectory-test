@@ -1,0 +1,49 @@
+[2015-10-15 17:57:38,625][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[6516], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-15 17:57:38,626][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-15 17:57:39,673][INFO ][plugins                  ] [rene_01_dev] loaded [], sites []
+[2015-10-15 17:57:40,116][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [228.5gb], net total_space [297.9gb], types [NTFS]
+[2015-10-15 17:57:59,147][INFO ][node                     ] [rene_01_dev] initialized
+[2015-10-15 17:57:59,148][INFO ][node                     ] [rene_01_dev] starting ...
+[2015-10-15 17:58:00,627][INFO ][transport                ] [rene_01_dev] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2015-10-15 17:58:01,408][INFO ][discovery                ] [rene_01_dev] eleasticsearch_rene-dev/qzobL-XJSjCAOHjp-oh3EA
+[2015-10-15 17:58:06,944][INFO ][cluster.service          ] [rene_01_dev] new_master [rene_01_dev][qzobL-XJSjCAOHjp-oh3EA][HMOSMANRA2W7E][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-15 17:58:07,165][INFO ][http                     ] [rene_01_dev] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2015-10-15 17:58:07,165][INFO ][node                     ] [rene_01_dev] started
+[2015-10-15 17:58:07,315][INFO ][gateway                  ] [rene_01_dev] recovered [0] indices into cluster_state
+[2015-10-15 17:59:03,970][INFO ][node                     ] [rene_01_dev] stopping ...
+[2015-10-15 17:59:04,031][INFO ][node                     ] [rene_01_dev] stopped
+[2015-10-15 17:59:04,031][INFO ][node                     ] [rene_01_dev] closing ...
+[2015-10-15 17:59:04,058][INFO ][node                     ] [rene_01_dev] closed
+[2015-10-15 18:02:04,685][INFO ][node                     ] [rene_01_dev] version[1.7.2], pid[7584], build[e43676b/2015-09-14T09:49:53Z]
+[2015-10-15 18:02:04,686][INFO ][node                     ] [rene_01_dev] initializing ...
+[2015-10-15 18:02:04,776][INFO ][plugins                  ] [rene_01_dev] loaded [marvel], sites [marvel]
+[2015-10-15 18:02:04,810][INFO ][env                      ] [rene_01_dev] using [1] data paths, mounts [[(C:)]], net usable_space [228.5gb], net total_space [297.9gb], types [NTFS]
+[2015-10-15 18:02:10,250][INFO ][node                     ] [rene_01_dev] initialized
+[2015-10-15 18:02:10,250][INFO ][node                     ] [rene_01_dev] starting ...
+[2015-10-15 18:02:10,505][INFO ][transport                ] [rene_01_dev] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2015-10-15 18:02:10,679][INFO ][discovery                ] [rene_01_dev] eleasticsearch_rene-dev/oWlmxeeRRS6sM-3wfRIvug
+[2015-10-15 18:02:14,463][INFO ][cluster.service          ] [rene_01_dev] new_master [rene_01_dev][oWlmxeeRRS6sM-3wfRIvug][HMOSMANRA2W7E][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2015-10-15 18:02:14,510][INFO ][gateway                  ] [rene_01_dev] recovered [0] indices into cluster_state
+[2015-10-15 18:02:14,535][INFO ][http                     ] [rene_01_dev] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2015-10-15 18:02:14,535][INFO ][node                     ] [rene_01_dev] started
+[2015-10-15 18:02:21,828][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [_default_, shard_event, index_event, index_stats, node_event, routing_event, cluster_event, cluster_state, cluster_stats, node_stats, indices_stats]
+[2015-10-15 18:02:23,419][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [node_stats] (dynamic)
+[2015-10-15 18:02:23,490][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [routing_event] (dynamic)
+[2015-10-15 18:02:23,503][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [cluster_state] (dynamic)
+[2015-10-15 18:02:23,522][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [node_event] (dynamic)
+[2015-10-15 18:02:23,528][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [index_event] (dynamic)
+[2015-10-15 18:02:23,533][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [cluster_event] (dynamic)
+[2015-10-15 18:02:23,612][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [indices_stats] (dynamic)
+[2015-10-15 18:02:23,635][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [index_stats] (dynamic)
+[2015-10-15 18:02:23,689][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.15] update_mapping [cluster_stats] (dynamic)
+[2015-10-15 18:05:34,621][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-kibana] creating index, cause [auto(index api)], templates [marvel], shards [1]/[1], mappings [_default_, shard_event, index_event, index_stats, node_event, routing_event, cluster_event, cluster_state, cluster_stats, node_stats, indices_stats, appdata]
+[2015-10-15 18:05:34,725][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-kibana] update_mapping [appdata] (dynamic)
+[2015-10-15 20:00:06,849][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [_default_, shard_event, index_event, index_stats, node_event, routing_event, cluster_event, cluster_state, cluster_stats, node_stats, indices_stats]
+[2015-10-15 20:00:06,956][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [node_stats] (dynamic)
+[2015-10-15 20:00:07,029][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [cluster_event] (dynamic)
+[2015-10-15 20:00:07,031][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [index_event] (dynamic)
+[2015-10-15 20:00:07,033][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [routing_event] (dynamic)
+[2015-10-15 20:00:07,035][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [cluster_state] (dynamic)
+[2015-10-15 20:00:07,040][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [indices_stats] (dynamic)
+[2015-10-15 20:00:07,046][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [index_stats] (dynamic)
+[2015-10-15 20:00:07,050][INFO ][cluster.metadata         ] [rene_01_dev] [.marvel-2015.10.16] update_mapping [cluster_stats] (dynamic)
