@@ -1,4 +1,4 @@
-# elasticsearch-phonedirectory-test
+# elasticsearch-realtime indexing-test
 just testing elasticsearch with a simple phone directory
 
 <p>This is a test using elasticsearch and showing it is real-time indexing strength</p>
